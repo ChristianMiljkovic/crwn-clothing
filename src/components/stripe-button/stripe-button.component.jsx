@@ -13,11 +13,12 @@ const StripeCheckoutButton = ({ price }) => {
     return (
         <StripeCheckout 
             label='Pay Now'
-            name='CRWN Clothing Ltd.'
+            name='CHILLI´S ONLINESTORE'
+            locale='de'
             billingAddress
             shippingAddress
             image='https://sendeyo.com/up/d/f3eb2117da'
-            description={`Your total is { price: } €`}
+            currency='EUR'
             amount={priceForStripe}
             panelLabel='Pay Now'
             token={onToken}
