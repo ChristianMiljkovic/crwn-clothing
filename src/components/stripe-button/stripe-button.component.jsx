@@ -13,7 +13,7 @@ const StripeCheckoutButton = ({ price }) => {
     return (
         <StripeCheckout 
             label='Pay Now'
-            name='CHILLI´S ONLINESTORE'
+            name='CRWN-LIVE-TEST-OS'
             locale='de'
             billingAddress
             shippingAddress
